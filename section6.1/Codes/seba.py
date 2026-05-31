@@ -4,7 +4,6 @@ Sparse eigenbasis approximation """
 import numpy as np
 from scipy.linalg import svd, qr
 
-
 def seba(V: np.ndarray, Rinit: np.ndarray = None, tol: float = 1e-12):
     V, _ = qr(V, mode="economic")
     p, r = V.shape
