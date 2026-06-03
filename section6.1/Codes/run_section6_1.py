@@ -138,11 +138,11 @@ def run(mat_path):
         # High Variance Trajectories
         fig_high_variance_trajectories(idl, mode_idx=m2, domain="M1", top_pct=0.05,
                                        abs_cutoff=ABS_CUT,add_streamfunction=True, 
-                                       M0_pts=M0_pts, outpath=OUT / "figG_highvar_M1.png", interactive=True)
+                                       M0_pts=M0_pts, outpath=OUT / "figG_highvar_M1.png",)
 
         fig_high_variance_trajectories(idl, mode_idx=m2, domain="M0", top_pct=0.05,
                                        abs_cutoff=ABS_CUT,add_streamfunction=False, 
-                                       M0_pts=M0_pts, outpath=OUT / "figG_highvar_M0.png", interactive=True)
+                                       M0_pts=M0_pts, outpath=OUT / "figG_highvar_M0.png",)
 
         print("Generated High Variance Trajectories")
 
