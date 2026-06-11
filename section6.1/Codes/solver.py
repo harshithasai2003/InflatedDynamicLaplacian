@@ -75,7 +75,7 @@ class InflatedDynamicLaplacian:
         self.a      = self.a_factor * a_min
         self.t_factor = self.a**2
         if self.verbose:
-            print(f"a_min={a_min:.4f}  a={self.a:.4f}  t_factor={self.t_factor:.4f}")
+            print(f"a_min={a_min:.4f}  a={self.a:.4f}")
         if self.verbose:
             print("Building P_x ...")
          # Build space-time diffusion operator
